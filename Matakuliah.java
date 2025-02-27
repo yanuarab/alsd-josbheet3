@@ -1,12 +1,13 @@
 public class Matakuliah {
     String kode;
     String nama;
-    int sks;
+    int sks, jumlahJam;
 
     public Matakuliah(String kode, String nama, int sks) {
         this.kode = kode;
         this.nama = nama;
         this.sks = sks;
+        this.jumlahJam = jumlahJam;
     }
 
     void cetakInfo() {
