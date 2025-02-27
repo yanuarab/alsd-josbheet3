@@ -20,7 +20,7 @@ class Matakuliah {
     }
 }
 
-public class MataKuliahDemo {
+public class MatauliahDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Matakuliah[] arrayOfMatakuliah = new Matakuliah[3];
@@ -47,7 +47,7 @@ public class MataKuliahDemo {
         System.out.println("===================================");
         for (int i = 0; i < 3; i++) {
             System.out.println("Data Matakuliah ke-" + (i + 1));
-            arrayOfMatakuliah[i].cetakInfo(); // Memanggil method cetakInfo()
+            arrayOfMatakuliah[i].cetakInfo(); 
         }
         sc.close();
     }
