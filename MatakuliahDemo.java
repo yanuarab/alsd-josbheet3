@@ -20,7 +20,7 @@ class Matakuliah {
     }
 }
 
-public class MatauliahDemo {
+public class MatakuliahDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Matakuliah[] arrayOfMatakuliah = new Matakuliah[3];
